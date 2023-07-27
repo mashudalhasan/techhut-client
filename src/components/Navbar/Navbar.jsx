@@ -1,0 +1,89 @@
+import userIcon from '../../assets/user.svg';
+import cartIcon from '../../assets/cart (1).svg';
+
+const Navbar = () => {
+  return (
+    <div className="navbar bg-base-100 lg:w-11/12 mx-auto p-0 pr-2">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden border-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a>All products</a>
+            </li>
+            <li>
+              <a>Parent</a>
+              <ul className="p-2">
+                <li>
+                  <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a>Dashboard</a>
+            </li>
+          </ul>
+        </div>
+        <a className="normal-case text-xl hover:bg-transparent">
+          <img className='h-1/3 w-1/3' src="/public/techhut logo.png" alt="" />
+        </a>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <a>All Products</a>
+          </li>
+          <li tabIndex={0}>
+            <details>
+              <summary>Parent</summary>
+              <ul className="p-2">
+                <li>
+                  <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <a>Dashboard</a>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end gap-2 lg:gap-8">
+        <a className="flex justify-center items-center gap-1 normal-case hover:bg-transparent">
+            <img className='h-5 w-5' src={userIcon} alt="" />
+            Account
+        </a>
+        <a className="flex justify-center items-center gap-1 normal-case hover:bg-transparent">
+            <img className='h-5 w-5' src={cartIcon} alt="" />
+            Cart
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

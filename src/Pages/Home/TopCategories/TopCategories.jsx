@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const TopCategories = () => {
   return (
     <div className="w-11/12 mx-auto my-10">
       <h3 className="text-2xl font-bold">Shop Our Top Categories</h3>
       <div className="mt-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5">
-        <a href="#">
+        <Link to="/smartphone">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -14,8 +16,8 @@ const TopCategories = () => {
               Smartphone
             </p>
           </div>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/laptop">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -26,7 +28,7 @@ const TopCategories = () => {
               Laptop
             </p>
           </div>
-        </a>
+        </Link>
         <a href="#">
           <div className="relative">
             <img

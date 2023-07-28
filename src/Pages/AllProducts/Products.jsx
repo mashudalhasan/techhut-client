@@ -1,10 +1,10 @@
-import { FaStar } from "react-icons/fa";
-import useAuth from "../../../hooks/useAuth";
 import Swal from "sweetalert2";
+import useAuth from "../../hooks/useAuth";
+import useCart from "../../hooks/useCart";
 import { useLocation, useNavigate } from "react-router-dom";
-import useCart from "../../../hooks/useCart";
+import { FaStar } from "react-icons/fa";
 
-const ShopCard = ({ shop }) => {
+const Products = ({ shop }) => {
   const { productName, productImage, price, rating, specs, _id } = shop;
   const { user } = useAuth();
   const [, refetch] = useCart();
@@ -99,4 +99,4 @@ const ShopCard = ({ shop }) => {
   );
 };
 
-export default ShopCard;
+export default Products;

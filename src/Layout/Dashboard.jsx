@@ -1,23 +1,25 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Navigate, Outlet } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import logo from "../../public/techhut logo.png";
 import usersIcon from "../assets/list-users.svg";
 import list from "../assets/list.svg";
+import add from "../assets/add-library.svg";
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
+import useAdmin from "../hooks/useAdmin";
 
 const Dashboard = () => {
   const { user } = useAuth();
   const { logOut } = useContext(AuthContext);
+  const [isAdmin] = useAdmin();
 
   const handleLogOut = () => {
     logOut()
-      .then(() => {})
+      .then(() => {
+        Navigate("/");
+      })
       .catch((error) => console.error(error.message));
   };
-
-  //   TODO
-  const isAdmin = true;
 
   return (
     <div>
@@ -70,11 +72,7 @@ const Dashboard = () => {
                         isActive ? "bg-base-200 font-semibold" : ""
                       }
                     >
-                      <img
-                        src={list}
-                        alt=""
-                        className="w-6 h-6 lg:w-8 lg:h-8"
-                      />
+                      <img src={add} alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
                       <span className="text-base text-gray-700">
                         Add Products
                       </span>

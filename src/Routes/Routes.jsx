@@ -10,6 +10,9 @@ import Dashboard from "../Layout/Dashboard";
 import ManageUsers from "../Pages/Dashboard/ManageUsers/ManageUsers";
 import ManageProducts from "../Pages/Dashboard/ManageProducts/ManageProducts";
 import AddProduct from "../Pages/Dashboard/AddProduct/AddProduct";
+import AllProducts from "../Pages/AllProducts/AllProducts";
+import Smartphone from "../Pages/Categories/Smartphone/Smartphone";
+import Laptop from "../Pages/Categories/Laptop/Laptop";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "allproducts",
+        element: <AllProducts></AllProducts>,
+      },
+      {
+        path: "smartphone",
+        element: <Smartphone></Smartphone>,
+      },
+      {
+        path: "laptop",
+        element: <Laptop></Laptop>,
       },
       {
         path: "login",

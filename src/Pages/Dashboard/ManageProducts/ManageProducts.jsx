@@ -14,10 +14,10 @@ const ManageProducts = () => {
   return (
     <div>
       <Helmet>
-        <title>The Language Space | Manage Classes</title>
+        <title>The Language Space | Manage Products</title>
       </Helmet>
       <h2 className="text-xl text-center font-semibold tracking-tighter text-gray-900 sm:text-3xl">
-        Manage Classes
+        Manage Products
       </h2>
 
       <div className="overflow-x-auto mt-14 rounded-md shadow-md">

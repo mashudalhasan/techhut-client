@@ -6,10 +6,12 @@ import { Tooltip } from "react-tippy";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import useCart from "../../hooks/useCart";
+import useAdmin from "../../hooks/useAdmin";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [cart] = useCart();
+  const [isAdmin] = useAdmin();
 
   const handleLogOut = () => {
     logOut()
@@ -20,7 +22,7 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a>All Products</a>
+        <Link to='/allproducts'>All Products</Link>
       </li>
       <li tabIndex={0}>
         <details>
@@ -35,7 +37,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li>{user && <Link to="/dashboard">Dashboard</Link>}</li>
+      <li>{isAdmin && <Link to="/dashboard/manageproducts">Dashboard</Link>}</li>
       {user && (
         <li>
           <button
@@ -127,7 +129,7 @@ const Navbar = () => {
               <img className="h-5 w-5" src={cartIcon} alt="" />
               Cart
             </div>
-            <div className="badge bg-gray-300 absolute top-0 left-11 transform translate-x-1/3 -translate-y-1/3">
+            <div className="badge bg-rose-100 absolute top-0 left-11 transform translate-x-1/3 -translate-y-1/3">
               {cart?.length || 0}
             </div>
           </div>

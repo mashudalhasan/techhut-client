@@ -51,14 +51,14 @@ const AddProduct = () => {
   return (
     <div className="w-3/4">
       <Helmet>
-        <title>The Language Space | Add Class</title>
+        <title>The Language Space | Add Product</title>
       </Helmet>
 
       {/* content */}
 
       <div className="bg-base-100 p-8 rounded-md shadow-md">
         <h2 className="text-xl text-center font-semibold tracking-tighter text-gray-900 sm:text-3xl mb-5">
-          Add Class
+          Add Product
         </h2>
         <form onSubmit={handleAddClass}>
           {/* form seller name and email row */}

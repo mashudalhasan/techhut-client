@@ -7,6 +7,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import useCart from "../../hooks/useCart";
 import useAdmin from "../../hooks/useAdmin";
+import logo from "../../assets/techhut-logo.png";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -91,12 +92,14 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <Link to="/" className="normal-case text-xl hover:bg-transparent">
-          <img className="h-1/3 w-1/3" src="/public/techhut logo.png" alt="" />
+        <Link to="/">
+          <img className="h-1/3 w-1/3" src={logo} alt="" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-3 font-semibold">{navOptions}</ul>
+        <ul className="menu menu-horizontal px-1 gap-3 font-semibold">
+          {navOptions}
+        </ul>
       </div>
       <div className="navbar-end gap-1 lg:gap-4 mr-8 lg:mr-0">
         {user ? (

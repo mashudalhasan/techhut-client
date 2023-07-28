@@ -1,6 +1,5 @@
 [
   {
-    "_id": 1,
     "productName": "iPhone 14 Pro",
     "productImage": "https://i.ibb.co/PckGwtC/Apple-i-Phone-14-Pro-i-Phone-14-Pro-Max-deep-purple-220907-inline-jpg-large-removebg-preview.png",
     "category": "Smartphone",
@@ -10,7 +9,6 @@
     "specs": "Super Retina XDR 6.1 inch OLED display, Dynamic Island, A16 Bionic chip, 512GB Storage"
   },
   {
-    "_id": 2,
     "productName": "Google Pixel 7",
     "productImage": "https://i.ibb.co/XZcQpxG/Pixel-7-Pro-Snow-custom-mac-bd-removebg-preview.png",
     "category": "Smartphone",
@@ -20,7 +18,6 @@
     "specs": "6.3-inch OLED display 90Hz, Google Tensor G2, 8GB RAM, 256GB Storage"
   },
   {
-    "_id": 3,
     "productName": "Samsung Galaxy S23 Ultra",
     "productImage": "https://i.ibb.co/99qsn5t/Galaxy-S23-Ultra-Green-Custom-Mac-BD-540x-removebg-preview.png",
     "category": "Smartphone",
@@ -30,7 +27,6 @@
     "specs": "6.8-inch Edge QHD+ Dynamic AMOLED 2X, Up to 120Hz refresh rate, Snapdragon 8 Gen 2 (4 nm), 12GB RAM, 512GB Storage"
   },
   {
-    "_id": 4,
     "productName": "Google Pixel 7a",
     "productImage": "https://i.ibb.co/YLXCXnV/pixel7a-800x800-removebg-preview.png",
     "category": "Smartphone",
@@ -40,7 +36,6 @@
     "specs": "6.1-inch OLED display 90Hz, Google Tensor G2 (5 nm), 8GB RAM, 128GB Storage"
   },
   {
-    "_id": 5,
     "productName": "OnePlus 11",
     "productImage": "https://i.ibb.co/sm6s2PJ/One-Plus-11-3-4957-removebg-preview.png",
     "category": "Smartphone",
@@ -50,7 +45,6 @@
     "specs": "6.7-inch Fluid AMOLED, 1B colors, 120Hz, Snapdragon 8 Gen 2 (4 nm), 16GB RAM, 256GB Storage"
   },
   {
-    "_id": 6,
     "productName": "iPhone 14",
     "productImage": "https://i.ibb.co/9sRgKSr/i-Phone-14-Purple-6116-removebg-preview.png",
     "category": "Smartphone",
@@ -60,7 +54,6 @@
     "specs": "Super Retina XDR 6.1 inch OLED display, A15 Bionic chip, 6GB RAM, 256GB Storage"
   },
   {
-    "_id": 7,
     "productName": "Samsung Galaxy Z Flip 4",
     "productImage": "https://i.ibb.co/1ns4F9p/Samsung-Galaxy-Z-Flip4-A-featured-image-packshot-review-Recovered-1024x691-removebg-preview.png",
     "category": "Smartphone",
@@ -70,7 +63,6 @@
     "specs": "6.7-inch Foldable Dynamic AMOLED 2X, 120Hz, Snapdragon 8+ Gen 1 (4 nm), 8GB RAM, 512GB Storage"
   },
   {
-    "_id": 8,
     "productName": "Asus Zenfone 9",
     "productImage": "https://i.ibb.co/XtJ6PP1/Asus-Zenfone-9-Midnight-Black-1750-removebg-preview.png",
     "category": "Smartphone",
@@ -80,7 +72,6 @@
     "specs": "5.9-inch Super AMOLED 120Hz, Snapdragon 8+ Gen 1 (4 nm), 8GB RAM, 256GB Storage"
   },
   {
-    "_id": 9,
     "productName": "Sony Xperia 1 V",
     "productImage": "https://i.ibb.co/b5wTNvx/sony-xperia-1-v-removebg-preview.png",
     "category": "Smartphone",
@@ -90,7 +81,7 @@
     "specs": "6.5-inch OLED display, 120Hz, Snapdragon 8 Gen 2 (4 nm), 12GB RAM, 512GB Storage"
   },
   {
-    "_id": 10,
+
     "productName": "Motorola Moto Edge+(2023)",
     "productImage": "https://i.ibb.co/N9Cr4rg/edge-pdp-render-3iw0wkdvc.png",
     "category": "Smartphone",
@@ -100,7 +91,7 @@
     "specs": "6.67-inch OLED display 165Hz, Snapdragon 8 Gen 2 (4 nm), 8GB RAM, 512GB Storage"
   },
   {
-    "_id": 11,
+
     "productName": "Apple MacBook Air (M2)",
     "productImage": "https://i.ibb.co/gRSgfCm/macbook-air-m2-roundup-header.png",
     "category": "Laptop",
@@ -110,7 +101,7 @@
     "specs": "13.6-inch Liquid Retina display, Apple M2 chip, 8GB RAM, 512GB SSD"
   },
   {
-    "_id": 12,
+
     "productName": "Apple MacBook Pro (M1)",
     "productImage": "https://i.ibb.co/bQZKqNP/2324-41148-removebg-preview.png",
     "category": "Laptop",
@@ -120,7 +111,7 @@
     "specs": "16.2-inch Liquid Retina display, Apple M1 chip, 16GB RAM, 512GB SSD"
   },
   {
-    "_id": 13,
+
     "productName": "HP Spectre x360 14",
     "productImage": "https://i.ibb.co/WykWZzz/c08278854.png",
     "category": "Laptop",
@@ -130,7 +121,7 @@
     "specs": "14-inch OLED touchscreen, Intel Core i7-1255U, 16GB RAM, 1TB SSD"
   },
   {
-    "_id": 14,
+
     "productName": "Asus Zenbook Pro Duo 14",
     "productImage": "https://i.ibb.co/Js1V0h0/zenbook-duo-14-01-500x500-removebg-preview.png",
     "category": "Laptop",
@@ -140,7 +131,7 @@
     "specs": "14-inch 2.8K OLED 120Hz, Intel Core i9-13900H, 32GB RAM, 2TB SSD, 8GB NVIDIA GeForce RTX 4060"
   },
   {
-    "_id": 15,
+
     "productName": "Asus ROG Zephyrus G14",
     "productImage": "https://i.ibb.co/ZJYPx3M/g14-web-grey-07-light-2021-884ec965b24747848d805e889baac7cf-4d0cc7d3bbbe44ec8b6d841d962c7fb4-master.png",
     "category": "Laptop",
@@ -150,7 +141,7 @@
     "specs": "14-inch 2.5K Nebula Display 120Hz, Ryzen 9 6900HS, 32GB RAM, 1TB SSD"
   },
   {
-    "_id": 16,
+
     "productName": "MacBook Pro 16 (M2 Pro)",
     "productImage": "https://i.ibb.co/3Rd5BpX/mbp14-space-gray-gallery1-2023-Custom-Mac-BD-1-removebg-preview.png",
     "category": "Laptop",
@@ -160,7 +151,7 @@
     "specs": "16-inch Liquid Retina display, Apple M2 chip, 16GB RAM, 512GB SSD"
   },
   {
-    "_id": 17,
+
     "productName": "Dell XPS 13",
     "productImage": "https://i.ibb.co/kGrtLyg/xs9320t-cnb-00005ff090-gy-oled-1-removebg-preview.png",
     "category": "Laptop",
@@ -170,7 +161,7 @@
     "specs": "13-inch FHD+, Intel Core i5-1230U, 16GB RAM, 512GB SSD"
   },
   {
-    "_id": 18,
+
     "productName": "Asus Zenbook S 13 OLED",
     "productImage": "https://i.ibb.co/DLFLWmm/asus-zenbook-13-oled-um5302-ryzen-5-6600u-16gb-ssd-512gb-w11h-removebg-preview.png",
     "category": "Laptop",
@@ -180,7 +171,7 @@
     "specs": "13-inch 2.8K 60Hz OLED display, AMD Ryzen 7 6800U, 16GB RAM, 1TB SSD"
   },
   {
-    "_id": 19,
+
     "productName": "Razer Blade 16",
     "productImage": "https://i.ibb.co/QPvYyXM/LD0006006325-1-removebg-preview.png",
     "category": "Laptop",
@@ -190,7 +181,7 @@
     "specs": "16-inch UHD 240Hz display, Intel Core i9-13980HX, 32GB RAM, 1TB SSD"
   },
   {
-    "_id": 20,
+
     "productName": "Lenovo Yoga 9i",
     "productImage": "https://i.ibb.co/pnMH4v3/lenovo-laptop-yoga-9i-14-subseries-gallery-5-removebg-preview.png",
     "category": "Laptop",
@@ -200,9 +191,9 @@
     "specs": "14-inch 2.8K OLED display, Intel Core™ i7-1360P, 16GB RAM, 512GB SSD"
   },
   {
-    "_id": 21,
+
     "productName": "Garmin Instinct 2S Solar",
-    "productImage": "https://i.ibb.co/N7gf2DL/cf-lg-7f9f12f9-3488-4248-b0d9-7a8183056771.jpg",
+    "productImage": "https://i.ibb.co/3djvxjs/cf-lg-7f9f12f9-3488-4248-b0d9-7a8183056771-removebg-preview.png",
     "category": "Smartwatch",
     "price": 399,
     "rating": 4.9,
@@ -210,7 +201,7 @@
     "specs": "1.12-inch LED, Heart-rate monitor, GPS, VO2 Max, MTB Dynamics"
   },
   {
-    "_id": 22,
+
     "productName": "Fitbit Sense 2",
     "productImage": "https://i.ibb.co/c3pWcdY/sense2-black-device-3qt-1.png",
     "category": "Smartwatch",
@@ -220,9 +211,9 @@
     "specs": "1.58-inch AMOLED, ECG, SpO2, GPS, Sleep tracking, Skin conductance (cEDA), Heart rate, Skin temperature"
   },
   {
-    "_id": 23,
+
     "productName": "Garmin Venu Sq 2",
-    "productImage": "smartwatch3.jpg",
+    "productImage": "https://i.ibb.co/4749mTh/venu-sq-2-mint-cf-lg-removebg-preview.png",
     "category": "Smartwatch",
     "price": 249,
     "rating": 4.8,
@@ -230,9 +221,9 @@
     "specs": "1.41-inch AMOLED, Heart-rate monitor, Sleep Monitor, IP67"
   },
   {
-    "_id": 24,
+
     "productName": "Garmin fenix 7S",
-    "productImage": "https://i.ibb.co/yyKRVGH/cf-xl.webp",
+    "productImage": "https://i.ibb.co/jV3Wt6p/garmin-fenix-7s-solar-rose-gold-light-sand-band-10-removebg-preview.png",
     "category": "Smartwatch",
     "price": 649,
     "rating": 4.9,
@@ -240,67 +231,67 @@
     "specs": "1.41-inch Sapphire lens, Visual Race Predictor, XC Ski Dynamics, MTB Dynamics"
   },
   {
-    "_id": 25,
-    "productName": "Smartwatch 5",
-    "productImage": "smartwatch5.jpg",
+
+    "productName": "Google Pixel Watch",
+    "productImage": "https://i.ibb.co/4SKyH6q/google-watch-800x800-removebg-preview.png",
     "category": "Smartwatch",
-    "price": 149,
-    "rating": 4.4,
+    "price": 279,
+    "rating": 4.8,
     "quantity": 70,
-    "specs": "1.2-inch LCD, Heart-rate monitor, Fitness tracking, Bluetooth"
+    "specs": "1.2-inch AMOLED, Heart-rate monitor, SpO2, Fitness tracking, Bluetooth"
   },
   {
-    "_id": 26,
-    "productName": "Smartwatch 6",
-    "productImage": "smartwatch6.jpg",
+
+    "productName": "Fossil Gen 6",
+    "productImage": "https://i.ibb.co/526xB31/FTW4068-main-removebg-preview.png",
     "category": "Smartwatch",
-    "price": 349,
+    "price": 229,
     "rating": 4.7,
     "quantity": 45,
-    "specs": "1.3-inch AMOLED, SpO2, ECG, NFC"
+    "specs": "1.28-inch AMOLED, SpO2, ECG, NFC"
   },
   {
-    "_id": 27,
-    "productName": "Smartwatch 7",
-    "productImage": "smartwatch7.jpg",
+
+    "productName": "Apple Watch Series 8",
+    "productImage": "https://i.ibb.co/6RxkmRd/Apple-Watch-Series-8-Cover-removebg-preview.png",
     "category": "Smartwatch",
-    "price": 209,
-    "rating": 4.0,
+    "price": 399,
+    "rating": 4.9,
     "quantity": 80,
-    "specs": "1.4-inch TFT, Heart-rate monitor, Sleep tracking, IP68"
+    "specs": "1.9-inch Retina LTPO OLED, Heart-rate monitor, Blood Oxygen, SpO2, ECG, Sleep tracking, IP68"
   },
   {
-    "_id": 28,
-    "productName": "Smartwatch 8",
-    "productImage": "smartwatch8.jpg",
+
+    "productName": "Samsung Galaxy Watch 5",
+    "productImage": "https://i.ibb.co/q97BcLB/Samsung-Galaxy-Watch-5-Gray-44mm-removebg-preview.png",
     "category": "Smartwatch",
-    "price": 289,
-    "rating": 4.6,
+    "price": 229,
+    "rating": 4.7,
     "quantity": 55,
-    "specs": "1.5-inch IPS, Blood oxygen monitor, GPS, Bluetooth"
+    "specs": "1.4-inch Super AMOLED, Blood oxygen monitor, GPS, Bluetooth"
   },
   {
-    "_id": 29,
-    "productName": "Smartwatch 9",
-    "productImage": "smartwatch9.jpg",
+
+    "productName": "Withings Scanwatch",
+    "productImage": "https://i.ibb.co/HNCMtD0/04b-AHq-COr-Lb-Y8-Xf-L2-Maik-S3-1-fit-lim-size-1050x591-v1638199326-removebg-preview.png",
     "category": "Smartwatch",
-    "price": 199,
+    "price": 299,
     "rating": 4.8,
     "quantity": 35,
     "specs": "1.3-inch OLED, Heart-rate monitor, SpO2, Bluetooth"
   },
   {
-    "_id": 30,
-    "productName": "Smartwatch 10",
-    "productImage": "smartwatch10.jpg",
+
+    "productName": "ASUS VivoWatch 5",
+    "productImage": "https://i.ibb.co/CMQZwDT/pd-14day.png",
     "category": "Smartwatch",
     "price": 179,
-    "rating": 4.3,
+    "rating": 4.5,
     "quantity": 65,
-    "specs": "1.2-inch LCD, Fitness tracking, Sleep analysis, IP67"
+    "specs": "1.3-inch AMOLED, Fitness tracking, Sleep analysis, ECG, SpO2"
   },
   {
-    "_id": 31,
+
     "productName": "Apple iPad Pro (M2 chip)",
     "productImage": "https://i.ibb.co/nsd20WR/Apple-i-Pad-Pro-Magic-Keyboard-M2-hero-2up-221018-big-jpg-large-removebg-preview.png",
     "category": "Tablet",
@@ -310,7 +301,7 @@
     "specs": "12.9-inch Liquid Retina XDR 120Hz, 512GB storage, M2 chip"
   },
   {
-    "_id": 32,
+
     "productName": "Samsung Galaxy Tab S8 Ultra",
     "productImage": "https://i.ibb.co/VVMFmSR/Tab-S8-Ultra-Brothers-1-800x800-removebg-preview.png",
     "category": "Tablet",
@@ -320,7 +311,7 @@
     "specs": "14.6-inch Super AMOLED 120Hz, 256GB storage, Snapdragon 8 Gen 1 (4 nm)"
   },
   {
-    "_id": 33,
+
     "productName": "OnePlus Pad",
     "productImage": "https://i.ibb.co/GV0v5NH/One-Plus-Pad-800x800-removebg-preview.png",
     "category": "Tablet",
@@ -330,7 +321,7 @@
     "specs": "11.61-inch IPS LCD 144Hz, 128GB storage, MediaTek Dimensity 9000"
   },
   {
-    "_id": 34,
+
     "productName": "Microsoft Surface Pro 9",
     "productImage": "https://i.ibb.co/xhYzLd3/RE50ytn-removebg-preview.png",
     "category": "Tablet",
@@ -340,7 +331,7 @@
     "specs": "13-inch PixelSense 120Hz Flow Display, Intel Core i5-1235U processor, 8GB 256GB storage"
   },
   {
-    "_id": 35,
+
     "productName": "Apple iPad Air (2022)",
     "productImage": "https://i.ibb.co/BjrjgS3/Apple-i-Pad-Air-hero-color-lineup-220308-big-jpg-slideshow-xlarge-2x-1-removebg-preview.png",
     "category": "Tablet",
@@ -350,7 +341,7 @@
     "specs": "10.9-inch Liquid Retina IPS LCD, 256GB storage, Apple M1 chip"
   },
   {
-    "_id": 36,
+
     "productName": "Sony WH-1000XM5",
     "productImage": "https://i.ibb.co/hgnFNnw/51wqq-B7y-BL-AC-UF894-1000-QL80-removebg-preview.png",
     "category": "Headphone",
@@ -360,7 +351,7 @@
     "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0"
   },
   {
-    "_id": 37,
+
     "productName": "Bose Noise Cancelling Headphones 700",
     "productImage": "https://i.ibb.co/rZzKVq4/cq5dam-web-600-600-1.png",
     "category": "Headphone",
@@ -370,7 +361,7 @@
     "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0"
   },
   {
-    "_id": 38,
+
     "productName": "AirPods Max",
     "productImage": "https://i.ibb.co/0ZkCMnP/IMG-5245968-edd4c8a5-9f62-4378-bd4b-fb2cbb43d7ba-823x-removebg-preview.png",
     "category": "Headphone",
@@ -380,7 +371,7 @@
     "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0, Apple H1 chip, Smart Case"
   },
   {
-    "_id": 39,
+
     "productName": "Bowers & Wilkins Px7 S2",
     "productImage": "https://i.ibb.co/B4ry6q9/BW-Px7-S2-Premium-design-desktop-removebg-preview.png",
     "category": "Headphone",
@@ -390,7 +381,7 @@
     "specs": "True Wireless, Lightweight, Active Noise Cancelling, Bluetooth 5.0"
   },
   {
-    "_id": 40,
+
     "productName": "Sennheiser Momentum 4",
     "productImage": "https://i.ibb.co/ZVwTkG7/Sennheiser-MOMENTUM-4-Noise-Canceling-Wireless-Headphones-removebg-preview.png",
     "category": "Headphone",
@@ -400,7 +391,7 @@
     "specs": "Over-ear, True Wireless, Adaptive Noise Cancellation, 42mm Dynamic Drivers"
   },
   {
-    "_id": 41,
+
     "productName": "DJI Mini 2 SE",
     "productImage": "https://i.ibb.co/HX6m40T/3600a75214b3263dc0be807605c2d6ac.png",
     "category": "Drone",
@@ -410,7 +401,7 @@
     "specs": "2.7K 30FPS Camera, 249g, 30 minutes flight time"
   },
   {
-    "_id": 42,
+
     "productName": "DJI Mini 3 Pro",
     "productImage": "https://i.ibb.co/bPq3c1y/7e215dd6f92a6178809776413bb3a476-374-374.png",
     "category": "Drone",
@@ -420,7 +411,7 @@
     "specs": "4K60 with digital zoom, Vertical video and photo support, Three-way obstacle sensors"
   },
   {
-    "_id": 43,
+
     "productName": "Autel Robotics Evo Lite+",
     "productImage": "https://i.ibb.co/6bZVG11/7-900x-removebg-preview.png",
     "category": "Drone",
@@ -430,7 +421,7 @@
     "specs": "6K30 and 4K60, 20MP Raw DNG/JPG, 1-inch sensor with variable aperture, 40 minutes flight time, GPS"
   },
   {
-    "_id": 44,
+
     "productName": "DJI Mavic 3 Pro",
     "productImage": "https://i.ibb.co/pzzWJNL/DJI-Mavic-3-Pro-2-800x800-removebg-preview.png",
     "category": "Drone",
@@ -440,7 +431,7 @@
     "specs": "Hasselblad triple-camera array, Up to 5.1K30 or 4K120 video, ProRes 422 video support, 35 minutes flight time"
   },
   {
-    "_id": 45,
+
     "productName": "DJI Air 2S",
     "productImage": "https://i.ibb.co/KFNQszd/DJI-Air-2-S-Drone-Quadcopter-removebg-preview.png",
     "category": "Drone",

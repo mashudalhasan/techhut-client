@@ -18,11 +18,13 @@ import Drone from "../Pages/Categories/Drone/Drone";
 import Headphone from "../Pages/Categories/Headphone/Headphone";
 import About from "../Pages/About/About";
 import History from "../Pages/History/History";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -89,6 +91,7 @@ const router = createBrowserRouter([
         <Dashboard></Dashboard>
       </PrivateRoute>
     ),
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "manageusers",

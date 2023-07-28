@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../public/techhut logo.png";
+import logo from "../../assets/techhut-logo.png";
 
 const Footer = () => {
   return (

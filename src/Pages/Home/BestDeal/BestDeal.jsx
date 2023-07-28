@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import ShopCard from "./ShopCard";
 
 const BestDeal = () => {
   const [shops, setShops] = useState([]);
@@ -23,15 +24,12 @@ const BestDeal = () => {
       <Tabs>
         <TabList>
           <Tab>Smartphone</Tab>
-          
         </TabList>
 
         <TabPanel>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
             {getCategoryShops("Smartphone").map((shop) => (
-              <div key={shop._id}>
-                <img src={shop.productImage} alt="" />
-              </div>
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
             ))}
           </div>
         </TabPanel>

@@ -5,15 +5,17 @@ const ShopCard = ({ shop }) => {
 
   return (
     <div className="">
-      <img
-        alt="product"
-        src={productImage}
-        className="h-64 w-full object-cover rounded-md"
-      />
+      <div className="h-64 bg-gray-50 rounded-md flex justify-center items-center">
+        <img
+          alt="product"
+          src={productImage}
+          className="h-4/5 w-4/5 object-contain rounded-md"
+        />
+      </div>
 
       <div className="mt-4 flex justify-between items-center">
-        <h3 className="text-lg font-bold text-gray-900">{productName}</h3>
-        <p className="font-bold text-lg">
+        <h3 className="text-base lg:text-lg font-bold text-gray-900">{productName}</h3>
+        <p className="font-bold text-base lg:text-lg">
           <span className="text-xs">$</span>
           {price}
         </p>

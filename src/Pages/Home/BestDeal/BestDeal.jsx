@@ -1,16 +1,10 @@
-import { useEffect } from "react";
-import { useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ShopCard from "./ShopCard";
+import "./BestDeal.css";
+import useProduct from "../../../hooks/useProduct";
 
 const BestDeal = () => {
-  const [shops, setShops] = useState([]);
-
-  useEffect(() => {
-    fetch("/products.json")
-      .then((res) => res.json())
-      .then((data) => setShops(data));
-  }, []);
+  const [shops] = useProduct();
 
   const getCategoryShops = (category) => {
     return shops.filter((shop) => shop.category === category);
@@ -24,11 +18,56 @@ const BestDeal = () => {
       <Tabs>
         <TabList>
           <Tab>Smartphone</Tab>
+          <Tab>Laptop</Tab>
+          <Tab>Smartwatch</Tab>
+          <Tab>Tablet</Tab>
+          <Tab>Headphone</Tab>
+          <Tab>Drone</Tab>
         </TabList>
 
         <TabPanel>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
             {getCategoryShops("Smartphone").map((shop) => (
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
+            {getCategoryShops("Laptop").map((shop) => (
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
+            {getCategoryShops("Smartwatch").map((shop) => (
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
+            {getCategoryShops("Tablet").map((shop) => (
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
+            {getCategoryShops("Headphone").map((shop) => (
+              <ShopCard key={shop._id} shop={shop}></ShopCard>
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">
+            {getCategoryShops("Drone").map((shop) => (
               <ShopCard key={shop._id} shop={shop}></ShopCard>
             ))}
           </div>

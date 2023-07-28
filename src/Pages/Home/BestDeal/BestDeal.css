@@ -1,0 +1,42 @@
+/* Add this custom CSS to style the tabs in a flex row layout */
+.react-tabs {
+  display: flex;
+  flex-direction: column; /* Display the tabs and content in a column */
+  overflow: hidden;
+  border-radius: 25px;
+  gap: 10px;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+  gap: 10px;
+}
+
+.react-tabs__tab {
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border-radius: 25px;
+  margin: 0 2px;
+}
+
+.react-tabs__tab:hover {
+    background-color: black;
+    color: white;
+}
+
+.react-tabs__tab:last-child {
+  margin-right: 0; /* Remove the right margin from the last tab */
+}
+
+.react-tabs__tab--selected {
+  background-color: black;
+  color: white;
+}

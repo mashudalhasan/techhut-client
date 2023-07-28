@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "productName": "iPhone 14 Pro",
-    "productImage": "https://i.ibb.co/DKhbZ4k/Apple-i-Phone-14-Pro-i-Phone-14-Pro-Max-deep-purple-220907-inline-jpg-large.jpg",
+    "productImage": "https://i.ibb.co/PckGwtC/Apple-i-Phone-14-Pro-i-Phone-14-Pro-Max-deep-purple-220907-inline-jpg-large-removebg-preview.png",
     "category": "Smartphone",
     "price": 1299,
     "rating": 4.8,
@@ -12,7 +12,7 @@
   {
     "_id": 2,
     "productName": "Google Pixel 7",
-    "productImage": "https://i.ibb.co/86TstB1/Pixel-7-Pro-Snow-custom-mac-bd.jpg",
+    "productImage": "https://i.ibb.co/XZcQpxG/Pixel-7-Pro-Snow-custom-mac-bd-removebg-preview.png",
     "category": "Smartphone",
     "price": 799,
     "rating": 4.9,
@@ -22,7 +22,7 @@
   {
     "_id": 3,
     "productName": "Samsung Galaxy S23 Ultra",
-    "productImage": "https://i.ibb.co/56S3DY4/Galaxy-S23-Ultra-Green-Custom-Mac-BD-540x.jpg",
+    "productImage": "https://i.ibb.co/99qsn5t/Galaxy-S23-Ultra-Green-Custom-Mac-BD-540x-removebg-preview.png",
     "category": "Smartphone",
     "price": 1379,
     "rating": 4.7,
@@ -32,7 +32,7 @@
   {
     "_id": 4,
     "productName": "Google Pixel 7a",
-    "productImage": "https://i.ibb.co/frmGyxN/pixel7a-800x800.png",
+    "productImage": "https://i.ibb.co/YLXCXnV/pixel7a-800x800-removebg-preview.png",
     "category": "Smartphone",
     "price": 499,
     "rating": 4.7,
@@ -42,7 +42,7 @@
   {
     "_id": 5,
     "productName": "OnePlus 11",
-    "productImage": "https://i.ibb.co/7jYVgJq/One-Plus-11-3-4957.jpg",
+    "productImage": "https://i.ibb.co/sm6s2PJ/One-Plus-11-3-4957-removebg-preview.png",
     "category": "Smartphone",
     "price": 749,
     "rating": 4.6,
@@ -52,7 +52,7 @@
   {
     "_id": 6,
     "productName": "iPhone 14",
-    "productImage": "https://i.ibb.co/JmFNTzg/i-Phone-14-Purple-6116.jpg",
+    "productImage": "https://i.ibb.co/9sRgKSr/i-Phone-14-Purple-6116-removebg-preview.png",
     "category": "Smartphone",
     "price": 899,
     "rating": 4.8,
@@ -62,7 +62,7 @@
   {
     "_id": 7,
     "productName": "Samsung Galaxy Z Flip 4",
-    "productImage": "https://i.ibb.co/bFVJtHX/Samsung-Galaxy-Z-Flip4-A-featured-image-packshot-review-Recovered-1024x691.jpg",
+    "productImage": "https://i.ibb.co/1ns4F9p/Samsung-Galaxy-Z-Flip4-A-featured-image-packshot-review-Recovered-1024x691-removebg-preview.png",
     "category": "Smartphone",
     "price": 899,
     "rating": 4.1,
@@ -72,7 +72,7 @@
   {
     "_id": 8,
     "productName": "Asus Zenfone 9",
-    "productImage": "https://i.ibb.co/jDfcTRs/Asus-Zenfone-9-Midnight-Black-1750.jpg",
+    "productImage": "https://i.ibb.co/XtJ6PP1/Asus-Zenfone-9-Midnight-Black-1750-removebg-preview.png",
     "category": "Smartphone",
     "price": 649,
     "rating": 4.7,
@@ -82,7 +82,7 @@
   {
     "_id": 9,
     "productName": "Sony Xperia 1 V",
-    "productImage": "https://i.ibb.co/jysQVqL/sony-xperia-1-v.jpg",
+    "productImage": "https://i.ibb.co/b5wTNvx/sony-xperia-1-v-removebg-preview.png",
     "category": "Smartphone",
     "price": 1275,
     "rating": 4.8,
@@ -91,7 +91,7 @@
   },
   {
     "_id": 10,
-    "productName": "Motorola Moto Edge+ (2023)",
+    "productName": "Motorola Moto Edge+(2023)",
     "productImage": "https://i.ibb.co/N9Cr4rg/edge-pdp-render-3iw0wkdvc.png",
     "category": "Smartphone",
     "price": 699,
@@ -112,7 +112,7 @@
   {
     "_id": 12,
     "productName": "Apple MacBook Pro (M1)",
-    "productImage": "https://i.ibb.co/FzQRJd9/2324-41148.jpg",
+    "productImage": "https://i.ibb.co/bQZKqNP/2324-41148-removebg-preview.png",
     "category": "Laptop",
     "price": 1599,
     "rating": 4.9,
@@ -132,7 +132,7 @@
   {
     "_id": 14,
     "productName": "Asus Zenbook Pro Duo 14",
-    "productImage": "https://i.ibb.co/QM3DL74/zenbook-duo-14-01-500x500.jpg",
+    "productImage": "https://i.ibb.co/Js1V0h0/zenbook-duo-14-01-500x500-removebg-preview.png",
     "category": "Laptop",
     "price": 2399,
     "rating": 4.9,
@@ -142,7 +142,7 @@
   {
     "_id": 15,
     "productName": "Asus ROG Zephyrus G14",
-    "productImage": "https://i.ibb.co/MPd2C9v/asus-rog-zephyrus-g14-ga401qm-amd-ryzen-9-5900hs-11646048724.webp",
+    "productImage": "https://i.ibb.co/ZJYPx3M/g14-web-grey-07-light-2021-884ec965b24747848d805e889baac7cf-4d0cc7d3bbbe44ec8b6d841d962c7fb4-master.png",
     "category": "Laptop",
     "price": 2500,
     "rating": 4.8,
@@ -152,7 +152,7 @@
   {
     "_id": 16,
     "productName": "MacBook Pro 16 (M2 Pro)",
-    "productImage": "laptop6.jpg",
+    "productImage": "https://i.ibb.co/3Rd5BpX/mbp14-space-gray-gallery1-2023-Custom-Mac-BD-1-removebg-preview.png",
     "category": "Laptop",
     "price": 2499,
     "rating": 4.9,
@@ -162,7 +162,7 @@
   {
     "_id": 17,
     "productName": "Dell XPS 13",
-    "productImage": "https://i.ibb.co/Xbj3k9f/xs9320t-cnb-00005ff090-gy-oled-1.jpg",
+    "productImage": "https://i.ibb.co/kGrtLyg/xs9320t-cnb-00005ff090-gy-oled-1-removebg-preview.png",
     "category": "Laptop",
     "price": 1099,
     "rating": 4.8,
@@ -172,7 +172,7 @@
   {
     "_id": 18,
     "productName": "Asus Zenbook S 13 OLED",
-    "productImage": "https://i.ibb.co/hFZv75n/asus-zenbook-13-oled-um5302-ryzen-5-6600u-16gb-ssd-512gb-w11h.jpg",
+    "productImage": "https://i.ibb.co/DLFLWmm/asus-zenbook-13-oled-um5302-ryzen-5-6600u-16gb-ssd-512gb-w11h-removebg-preview.png",
     "category": "Laptop",
     "price": 1399,
     "rating": 4.8,
@@ -182,7 +182,7 @@
   {
     "_id": 19,
     "productName": "Razer Blade 16",
-    "productImage": "https://i.ibb.co/VQF1Nqp/Razer-Blade-16.webp",
+    "productImage": "https://i.ibb.co/QPvYyXM/LD0006006325-1-removebg-preview.png",
     "category": "Laptop",
     "price": 4300,
     "rating": 4.8,
@@ -192,7 +192,7 @@
   {
     "_id": 20,
     "productName": "Lenovo Yoga 9i",
-    "productImage": "https://i.ibb.co/YB5bkhD/lenovo-laptop-yoga-9i-14-subseries-gallery-5.jpg",
+    "productImage": "https://i.ibb.co/pnMH4v3/lenovo-laptop-yoga-9i-14-subseries-gallery-5-removebg-preview.png",
     "category": "Laptop",
     "price": 1099,
     "rating": 4.9,
@@ -298,5 +298,155 @@
     "rating": 4.3,
     "quantity": 65,
     "specs": "1.2-inch LCD, Fitness tracking, Sleep analysis, IP67"
+  },
+  {
+    "_id": 31,
+    "productName": "Apple iPad Pro (M2 chip)",
+    "productImage": "https://i.ibb.co/nsd20WR/Apple-i-Pad-Pro-Magic-Keyboard-M2-hero-2up-221018-big-jpg-large-removebg-preview.png",
+    "category": "Tablet",
+    "price": 1399,
+    "rating": 4.9,
+    "quantity": 50,
+    "specs": "12.9-inch Liquid Retina XDR 120Hz, 512GB storage, M2 chip"
+  },
+  {
+    "_id": 32,
+    "productName": "Samsung Galaxy Tab S8 Ultra",
+    "productImage": "https://i.ibb.co/VVMFmSR/Tab-S8-Ultra-Brothers-1-800x800-removebg-preview.png",
+    "category": "Tablet",
+    "price": 1079,
+    "rating": 4.8,
+    "quantity": 40,
+    "specs": "14.6-inch Super AMOLED 120Hz, 256GB storage, Snapdragon 8 Gen 1 (4 nm)"
+  },
+  {
+    "_id": 33,
+    "productName": "OnePlus Pad",
+    "productImage": "https://i.ibb.co/GV0v5NH/One-Plus-Pad-800x800-removebg-preview.png",
+    "category": "Tablet",
+    "price": 479,
+    "rating": 4.7,
+    "quantity": 60,
+    "specs": "11.61-inch IPS LCD 144Hz, 128GB storage, MediaTek Dimensity 9000"
+  },
+  {
+    "_id": 34,
+    "productName": "Microsoft Surface Pro 9",
+    "productImage": "https://i.ibb.co/xhYzLd3/RE50ytn-removebg-preview.png",
+    "category": "Tablet",
+    "price": 799,
+    "rating": 4.9,
+    "quantity": 30,
+    "specs": "13-inch PixelSense 120Hz Flow Display, Intel Core i5-1235U processor, 8GB 256GB storage"
+  },
+  {
+    "_id": 35,
+    "productName": "Apple iPad Air (2022)",
+    "productImage": "https://i.ibb.co/BjrjgS3/Apple-i-Pad-Air-hero-color-lineup-220308-big-jpg-slideshow-xlarge-2x-1-removebg-preview.png",
+    "category": "Tablet",
+    "price": 749,
+    "rating": 4.9,
+    "quantity": 70,
+    "specs": "10.9-inch Liquid Retina IPS LCD, 256GB storage, Apple M1 chip"
+  },
+  {
+    "_id": 36,
+    "productName": "Sony WH-1000XM5",
+    "productImage": "https://i.ibb.co/hgnFNnw/51wqq-B7y-BL-AC-UF894-1000-QL80-removebg-preview.png",
+    "category": "Headphone",
+    "price": 399,
+    "rating": 4.9,
+    "quantity": 100,
+    "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0"
+  },
+  {
+    "_id": 37,
+    "productName": "Bose Noise Cancelling Headphones 700",
+    "productImage": "https://i.ibb.co/rZzKVq4/cq5dam-web-600-600-1.png",
+    "category": "Headphone",
+    "price": 379,
+    "rating": 4.9,
+    "quantity": 80,
+    "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0"
+  },
+  {
+    "_id": 38,
+    "productName": "AirPods Max",
+    "productImage": "https://i.ibb.co/0ZkCMnP/IMG-5245968-edd4c8a5-9f62-4378-bd4b-fb2cbb43d7ba-823x-removebg-preview.png",
+    "category": "Headphone",
+    "price": 549,
+    "rating": 4.9,
+    "quantity": 120,
+    "specs": "True Wireless, Active Noise Cancelling, Bluetooth 5.0, Apple H1 chip, Smart Case"
+  },
+  {
+    "_id": 39,
+    "productName": "Bowers & Wilkins Px7 S2",
+    "productImage": "https://i.ibb.co/B4ry6q9/BW-Px7-S2-Premium-design-desktop-removebg-preview.png",
+    "category": "Headphone",
+    "price": 399,
+    "rating": 4.8,
+    "quantity": 90,
+    "specs": "True Wireless, Lightweight, Active Noise Cancelling, Bluetooth 5.0"
+  },
+  {
+    "_id": 40,
+    "productName": "Sennheiser Momentum 4",
+    "productImage": "https://i.ibb.co/ZVwTkG7/Sennheiser-MOMENTUM-4-Noise-Canceling-Wireless-Headphones-removebg-preview.png",
+    "category": "Headphone",
+    "price": 299,
+    "rating": 4.7,
+    "quantity": 70,
+    "specs": "Over-ear, True Wireless, Adaptive Noise Cancellation, 42mm Dynamic Drivers"
+  },
+  {
+    "_id": 41,
+    "productName": "DJI Mini 2 SE",
+    "productImage": "https://i.ibb.co/HX6m40T/3600a75214b3263dc0be807605c2d6ac.png",
+    "category": "Drone",
+    "price": 339,
+    "rating": 4.7,
+    "quantity": 50,
+    "specs": "2.7K 30FPS Camera, 249g, 30 minutes flight time"
+  },
+  {
+    "_id": 42,
+    "productName": "DJI Mini 3 Pro",
+    "productImage": "https://i.ibb.co/bPq3c1y/7e215dd6f92a6178809776413bb3a476-374-374.png",
+    "category": "Drone",
+    "price": 759,
+    "rating": 4.9,
+    "quantity": 40,
+    "specs": "4K60 with digital zoom, Vertical video and photo support, Three-way obstacle sensors"
+  },
+  {
+    "_id": 43,
+    "productName": "Autel Robotics Evo Lite+",
+    "productImage": "https://i.ibb.co/6bZVG11/7-900x-removebg-preview.png",
+    "category": "Drone",
+    "price": 1459,
+    "rating": 4.8,
+    "quantity": 20,
+    "specs": "6K30 and 4K60, 20MP Raw DNG/JPG, 1-inch sensor with variable aperture, 40 minutes flight time, GPS"
+  },
+  {
+    "_id": 44,
+    "productName": "DJI Mavic 3 Pro",
+    "productImage": "https://i.ibb.co/pzzWJNL/DJI-Mavic-3-Pro-2-800x800-removebg-preview.png",
+    "category": "Drone",
+    "price": 2199,
+    "rating": 4.9,
+    "quantity": 30,
+    "specs": "Hasselblad triple-camera array, Up to 5.1K30 or 4K120 video, ProRes 422 video support, 35 minutes flight time"
+  },
+  {
+    "_id": 45,
+    "productName": "DJI Air 2S",
+    "productImage": "https://i.ibb.co/KFNQszd/DJI-Air-2-S-Drone-Quadcopter-removebg-preview.png",
+    "category": "Drone",
+    "price": 349,
+    "rating": 4.4,
+    "quantity": 70,
+    "specs": "Up to 5.4K30 or 4K60 video, 1-inch sensor camera, GPS, obstacle sensors, ADS-B, 30 minutes flight time"
   }
 ]

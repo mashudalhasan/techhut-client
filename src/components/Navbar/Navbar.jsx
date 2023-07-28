@@ -35,9 +35,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li>
-        <a>Dashboard</a>
-      </li>
+      <li>{user && <Link to="/dashboard">Dashboard</Link>}</li>
       {user && (
         <li>
           <button
@@ -82,7 +80,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navOptions}</ul>
+        <ul className="menu menu-horizontal px-1 gap-3">{navOptions}</ul>
       </div>
       <div className="navbar-end gap-1 lg:gap-4 mr-8 lg:mr-0">
         {user ? (
@@ -123,7 +121,7 @@ const Navbar = () => {
           </>
         )}
 
-        <Link to='/cart'>
+        <Link to="/cart">
           <div className="relative font-semibold">
             <div className="flex justify-center items-center gap-1 normal-case hover:bg-transparent">
               <img className="h-5 w-5" src={cartIcon} alt="" />

@@ -6,7 +6,8 @@ import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
 
 const SignUp = () => {
-  const { createUser, updateUserProfile } = useContext(AuthContext);
+  const { createUser, updateUserProfile, googleSignIn } =
+    useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -26,19 +27,67 @@ const SignUp = () => {
       console.log(newUser);
       updateUserProfile(data.name, data.image)
         .then(() => {
-          console.log("user profile info updated");
-          reset();
-          Swal.fire({
-            position: "top-end",
-            icon: "success",
-            title: "User Created Successfully",
-            showConfirmButton: false,
-            timer: 1500,
-          });
-          navigate(from, { replace: true });
+          const saveUser = {
+            name: data.name,
+            email: data.email,
+            photo: data.image,
+            role: "customer",
+          };
+
+          fetch("http://localhost:5000/users", {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+            },
+            body: JSON.stringify(saveUser),
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              if (data.insertedId) {
+                reset();
+                Swal.fire({
+                  position: "top-end",
+                  icon: "success",
+                  title: "User Created Successfully",
+                  showConfirmButton: false,
+                  timer: 1500,
+                });
+                navigate(from, { replace: true });
+              }
+            });
         })
         .catch((error) => console.error(error.message));
     });
+  };
+
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+      .then((result) => {
+        const loggedUser = result.user;
+        console.log(loggedUser);
+
+        const saveUser = {
+          name: loggedUser.displayName,
+          email: loggedUser.email,
+          photo: loggedUser.photoURL,
+          role: "customer",
+        };
+
+        fetch("http://localhost:5000/users", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(saveUser),
+        })
+          .then((res) => res.json())
+          .then(() => {
+            navigate(from, { replace: true });
+          });
+      })
+      .catch((error) => {
+        console.error(error.message);
+      });
   };
 
   return (
@@ -166,7 +215,10 @@ const SignUp = () => {
             </p>
             <div className="flex-1 h-px sm:w-16 dark:bg-gray-700"></div>
           </div>
-          <div className="flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 border-rounded cursor-pointer active:bg-base-100">
+          <div
+            onClick={handleGoogleSignIn}
+            className="flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 border-rounded cursor-pointer active:bg-base-100"
+          >
             <FcGoogle size={32} />
 
             <p>Continue with Google</p>

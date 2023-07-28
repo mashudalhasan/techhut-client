@@ -1,7 +1,63 @@
 import { FaStar } from "react-icons/fa";
+import useAuth from "../../../hooks/useAuth";
+import Swal from "sweetalert2";
+import { useLocation, useNavigate } from "react-router-dom";
+import useCart from "../../../hooks/useCart";
 
 const ShopCard = ({ shop }) => {
-  const { productName, productImage, price, rating, specs } = shop;
+  const { productName, productImage, price, rating, specs, _id } = shop;
+  const { user } = useAuth();
+  const [, refetch] = useCart();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleAddToCart = (shop) => {
+    console.log(shop);
+    if (user) {
+      const cartItem = {
+        itemId: _id,
+        productName,
+        productImage,
+        price,
+        rating,
+        specs,
+        email: user.email,
+      };
+      fetch("http://localhost:5000/carts", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(cartItem),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.insertedId) {
+            refetch();
+            Swal.fire({
+              position: "top-end",
+              icon: "success",
+              title: "Product Added",
+              showConfirmButton: false,
+              timer: 1500,
+            });
+          }
+        });
+    } else {
+      Swal.fire({
+        title: "Please Login for Purchase",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#22C55E",
+        cancelButtonColor: "#EF4444",
+        confirmButtonText: "Login",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          navigate("/login", { state: { from: location } });
+        }
+      });
+    }
+  };
 
   return (
     <div className="">
@@ -14,7 +70,9 @@ const ShopCard = ({ shop }) => {
       </div>
 
       <div className="mt-4 flex justify-between items-center">
-        <h3 className="text-base lg:text-lg font-bold text-gray-900">{productName}</h3>
+        <h3 className="text-base lg:text-lg font-bold text-gray-900">
+          {productName}
+        </h3>
         <p className="font-bold text-base lg:text-lg">
           <span className="text-xs">$</span>
           {price}
@@ -31,7 +89,10 @@ const ShopCard = ({ shop }) => {
         <span className="ml-1 text-gray-500">({rating})</span>
       </p>
 
-      <button className="mt-2 font-semibold px-3 py-1 border border-black rounded-full hover:bg-black hover:text-white transition duration-500">
+      <button
+        onClick={() => handleAddToCart(shop)}
+        className="mt-2 font-semibold px-3 py-1 border border-black rounded-full hover:bg-black hover:text-white transition duration-500"
+      >
         Add to Cart
       </button>
     </div>

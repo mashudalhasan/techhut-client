@@ -1,0 +1,11 @@
+/* Add this custom CSS to position the badge div on top corner of the cart */
+.badge {
+  position: absolute;
+  top: -5px; /* Adjust this value to move the badge up or down */
+  right: -5px; /* Adjust this value to move the badge left or right */
+  background-color: red; /* Set the background color of the badge */
+  color: white; /* Set the text color of the badge */
+  font-size: 12px; /* Set the font size of the badge */
+  padding: 3px 6px; /* Set the padding of the badge */
+  border-radius: 50%; /* Make the badge circular */
+}

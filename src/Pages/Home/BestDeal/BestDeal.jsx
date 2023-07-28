@@ -2,6 +2,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ShopCard from "./ShopCard";
 import "./BestDeal.css";
 import useProduct from "../../../hooks/useProduct";
+import { motion } from "framer-motion";
 
 const BestDeal = () => {
   const [shops] = useProduct();
@@ -11,19 +12,30 @@ const BestDeal = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto mb-10">
-      <h3 className="text-lg sm:text-2xl font-bold">
+    <div className="w-11/12 mx-auto mb-10 overflow-hidden">
+      <motion.h3
+        initial={{ opacity: 0, translateX: "-20%" }}
+        whileInView={{ opacity: 1, translateX: "0%" }}
+        transition={{ duration: 1.5 }}
+        className="text-lg sm:text-2xl font-bold"
+      >
         Todays Best Deals For You!
-      </h3>
+      </motion.h3>
       <Tabs>
-        <TabList>
-          <Tab>Smartphone</Tab>
-          <Tab>Laptop</Tab>
-          <Tab>Smartwatch</Tab>
-          <Tab>Tablet</Tab>
-          <Tab>Headphone</Tab>
-          <Tab>Drone</Tab>
-        </TabList>
+        <motion.div
+          initial={{ opacity: 0, translateX: "-20%" }}
+          whileInView={{ opacity: 1, translateX: "0%" }}
+          transition={{ duration: 1.5 }}
+        >
+          <TabList>
+            <Tab>Smartphone</Tab>
+            <Tab>Laptop</Tab>
+            <Tab>Smartwatch</Tab>
+            <Tab>Tablet</Tab>
+            <Tab>Headphone</Tab>
+            <Tab>Drone</Tab>
+          </TabList>
+        </motion.div>
 
         <TabPanel>
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5">

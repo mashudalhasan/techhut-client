@@ -18,7 +18,7 @@ const Cart = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/carts/${item._id}`, {
+        fetch(`https://techhut-server.vercel.app/carts/${item._id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -48,7 +48,7 @@ const Cart = () => {
         confirmButtonColor: "#22C55E",
       }).then(() => {
         // Clear the cart by sending a DELETE request to the backend to delete all items
-        fetch("http://localhost:5000/carts", {
+        fetch("https://techhut-server.vercel.app/carts", {
           method: "DELETE",
         })
           .then((res) => res.json())

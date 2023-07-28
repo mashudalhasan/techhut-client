@@ -22,22 +22,36 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <Link to='/allproducts'>All Products</Link>
+        <Link to="/allproducts">All Products</Link>
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Parent</summary>
+          <summary>Category</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <Link to="/smartphone">Smartphone</Link>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <Link to="/laptop">Laptop</Link>
+            </li>
+            <li>
+              <Link to="/smartwatch">Smartwatch</Link>
+            </li>
+            <li>
+              <Link to="/tablet">Tablet</Link>
+            </li>
+            <li>
+              <Link to="/drone">Drone</Link>
+            </li>
+            <li>
+              <Link to="/headphone">Headphone</Link>
             </li>
           </ul>
         </details>
       </li>
-      <li>{isAdmin && <Link to="/dashboard/manageproducts">Dashboard</Link>}</li>
+      <li>
+        {isAdmin && <Link to="/dashboard/manageproducts">Dashboard</Link>}
+      </li>
       {user && (
         <li>
           <button
@@ -51,7 +65,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 lg:w-11/12 mx-auto p-0 pr-2">
+    <div className="navbar bg-base-100 lg:w-11/12 mx-auto p-0 pr-6">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden border-none">
@@ -72,7 +86,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
           >
             {navOptions}
           </ul>
@@ -82,7 +96,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-3">{navOptions}</ul>
+        <ul className="menu menu-horizontal px-1 gap-3 font-semibold">{navOptions}</ul>
       </div>
       <div className="navbar-end gap-1 lg:gap-4 mr-8 lg:mr-0">
         {user ? (
@@ -129,7 +143,7 @@ const Navbar = () => {
               <img className="h-5 w-5" src={cartIcon} alt="" />
               Cart
             </div>
-            <div className="badge bg-rose-100 absolute top-0 left-11 transform translate-x-1/3 -translate-y-1/3">
+            <div className="badge bg-rose-100 absolute top-0 left-11 transform translate-x-1/3 -translate-y-1/3 overflow-hidden">
               {cart?.length || 0}
             </div>
           </div>

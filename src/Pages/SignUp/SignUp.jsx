@@ -34,7 +34,7 @@ const SignUp = () => {
             role: "customer",
           };
 
-          fetch("http://localhost:5000/users", {
+          fetch("https://techhut-server.vercel.app/users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -73,7 +73,7 @@ const SignUp = () => {
           role: "customer",
         };
 
-        fetch("http://localhost:5000/users", {
+        fetch("https://techhut-server.vercel.app/users", {
           method: "POST",
           headers: {
             "content-type": "application/json",

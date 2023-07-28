@@ -1,10 +1,23 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const TopCategories = () => {
   return (
     <div className="w-11/12 mx-auto my-10">
-      <h3 className="text-2xl font-bold">Shop Our Top Categories</h3>
-      <div className="mt-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5">
+      <motion.h3
+        initial={{ opacity: 0, translateX: "-20%" }}
+        whileInView={{ opacity: 1, translateX: "0%" }}
+        transition={{ duration: 1.5 }}
+        className="text-2xl font-bold"
+      >
+        Shop Our Top Categories
+      </motion.h3>
+      <motion.div
+        initial={{ opacity: 0, translateY: "50%" }}
+        whileInView={{ opacity: 1, translateY: "0%" }}
+        transition={{ duration: 1.5 }}
+        className="mt-5 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5"
+      >
         <Link to="/smartphone">
           <div className="relative">
             <img
@@ -29,7 +42,7 @@ const TopCategories = () => {
             </p>
           </div>
         </Link>
-        <a href="#">
+        <Link to="/smartwatch">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -40,8 +53,8 @@ const TopCategories = () => {
               Smartwatch
             </p>
           </div>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/tablet">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -52,8 +65,8 @@ const TopCategories = () => {
               Tablet
             </p>
           </div>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/drone">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -64,8 +77,8 @@ const TopCategories = () => {
               Drone
             </p>
           </div>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/headphone">
           <div className="relative">
             <img
               className="h-52 w-44 object-cover rounded-md transition duration-300 hover:scale-105"
@@ -76,8 +89,8 @@ const TopCategories = () => {
               Headphone
             </p>
           </div>
-        </a>
-      </div>
+        </Link>
+      </motion.div>
     </div>
   );
 };

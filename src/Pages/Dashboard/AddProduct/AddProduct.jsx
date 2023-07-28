@@ -26,7 +26,7 @@ const AddProduct = () => {
     };
     console.log(newProduct);
 
-    fetch("http://localhost:5000/products", {
+    fetch("https://techhut-server.vercel.app/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

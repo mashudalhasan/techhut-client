@@ -3,6 +3,7 @@ import useAuth from "../../../hooks/useAuth";
 import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router-dom";
 import useCart from "../../../hooks/useCart";
+import { motion } from "framer-motion";
 
 const ShopCard = ({ shop }) => {
   const { productName, productImage, price, rating, specs, _id } = shop;
@@ -23,7 +24,7 @@ const ShopCard = ({ shop }) => {
         specs,
         email: user.email,
       };
-      fetch("http://localhost:5000/carts", {
+      fetch("https://techhut-server.vercel.app/carts", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -60,7 +61,11 @@ const ShopCard = ({ shop }) => {
   };
 
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, translateY: "20%" }}
+      whileInView={{ opacity: 1, translateY: "0%" }}
+      transition={{ duration: 1.5 }}
+    >
       <div className="h-64 bg-gray-50 rounded-md flex justify-center items-center">
         <img
           alt="product"
@@ -95,7 +100,7 @@ const ShopCard = ({ shop }) => {
       >
         Add to Cart
       </button>
-    </div>
+    </motion.div>
   );
 };
 

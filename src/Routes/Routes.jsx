@@ -4,7 +4,6 @@ import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
-import Secret from "../Pages/Secret/Secret";
 import Cart from "../Pages/Cart/Cart";
 import Dashboard from "../Layout/Dashboard";
 import ManageUsers from "../Pages/Dashboard/ManageUsers/ManageUsers";
@@ -13,6 +12,12 @@ import AddProduct from "../Pages/Dashboard/AddProduct/AddProduct";
 import AllProducts from "../Pages/AllProducts/AllProducts";
 import Smartphone from "../Pages/Categories/Smartphone/Smartphone";
 import Laptop from "../Pages/Categories/Laptop/Laptop";
+import Smartwatch from "../Pages/Categories/Smartwatch/Smartwatch";
+import Tablet from "../Pages/Categories/Tablet/Tablet";
+import Drone from "../Pages/Categories/Drone/Drone";
+import Headphone from "../Pages/Categories/Headphone/Headphone";
+import About from "../Pages/About/About";
+import History from "../Pages/History/History";
 
 const router = createBrowserRouter([
   {
@@ -36,20 +41,36 @@ const router = createBrowserRouter([
         element: <Laptop></Laptop>,
       },
       {
+        path: "smartwatch",
+        element: <Smartwatch></Smartwatch>,
+      },
+      {
+        path: "tablet",
+        element: <Tablet></Tablet>,
+      },
+      {
+        path: "drone",
+        element: <Drone></Drone>,
+      },
+      {
+        path: "headphone",
+        element: <Headphone></Headphone>,
+      },
+      {
+        path: "about",
+        element: <About></About>,
+      },
+      {
+        path: "history",
+        element: <History></History>,
+      },
+      {
         path: "login",
         element: <Login></Login>,
       },
       {
         path: "signup",
         element: <SignUp></SignUp>,
-      },
-      {
-        path: "secret",
-        element: (
-          <PrivateRoute>
-            <Secret></Secret>
-          </PrivateRoute>
-        ),
       },
       {
         path: "cart",

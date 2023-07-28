@@ -5,7 +5,7 @@ const useProduct = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://techhut-server.vercel.app/products")
       .then((res) => res.json())
       .then((data) => {
         setShops(data);

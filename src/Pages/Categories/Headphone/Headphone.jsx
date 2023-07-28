@@ -3,19 +3,19 @@ import useProduct from "../../../hooks/useProduct";
 import CommonBanner from "../../../components/CommonBanner/CommonBanner";
 import ShopCard from "../../Home/BestDeal/ShopCard";
 
-const Smartphone = () => {
+const Headphone = () => {
   const [shops] = useProduct();
 
   const getCategoryShops = () => {
-    return shops.filter((shop) => shop.category === "Smartphone");
+    return shops.filter((shop) => shop.category === "Headphone");
   };
 
   return (
     <div>
       <Helmet>
-        <title>The Language Space | Smartphones</title>
+        <title>The Language Space | Headphones</title>
       </Helmet>
-      <CommonBanner title={"Smartphones"}></CommonBanner>
+      <CommonBanner title={"Headphones"}></CommonBanner>
       <div
         className="w-11/12 mx-auto mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
         data-aos="fade-right"
@@ -29,4 +29,4 @@ const Smartphone = () => {
   );
 };
 
-export default Smartphone;
+export default Headphone;

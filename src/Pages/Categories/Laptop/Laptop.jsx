@@ -13,7 +13,7 @@ const Laptop = () => {
   return (
     <div>
       <Helmet>
-        <title>The Language Space | Products</title>
+        <title>The Language Space | Laptops</title>
       </Helmet>
       <CommonBanner title={"Laptops"}></CommonBanner>
       <div

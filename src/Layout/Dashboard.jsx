@@ -7,6 +7,8 @@ import add from "../assets/add-library.svg";
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 import useAdmin from "../hooks/useAdmin";
+import { Helmet } from "react-helmet-async";
+import { motion } from "framer-motion";
 
 const Dashboard = () => {
   const { user } = useAuth();
@@ -22,7 +24,14 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <motion.div
+      initial={{ x: -100 }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", stiffness: 100 }}
+    >
+      <Helmet>
+        <title>Tech Hut | Dashboard</title>
+      </Helmet>
       <div className="drawer lg:drawer-open">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col items-start lg:items-center justify-center mt-2 ml-2">
@@ -155,7 +164,7 @@ const Dashboard = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

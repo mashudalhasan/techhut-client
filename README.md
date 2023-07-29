@@ -1,4 +1,4 @@
-# <img src="/src/assets/techhut-logo.png" alt="logo" width="100" height="100">
+# <img src="/src/assets/techhut-logo.png" alt="logo" width="200" height="100">
 
 A full stack React website built with admin dashboard functionality.
 

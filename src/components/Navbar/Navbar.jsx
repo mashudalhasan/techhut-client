@@ -66,7 +66,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 lg:w-11/12 mx-auto p-0 pr-6">
+    <div className="navbar w-full mx-auto lg:pl-5 lg:pr-10 py-0 bg-white bg-opacity-80 fixed z-40 backdrop-filter backdrop-blur-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden border-none">
@@ -93,7 +93,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-          <img className="h-1/3 w-1/3" src={logo} alt="" />
+          <img className="h-3/4 w-3/4 lg:h-1/3 lg:w-1/3" src={logo} alt="" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -132,7 +132,7 @@ const Navbar = () => {
           <>
             <Link
               to="/login"
-              className="flex justify-center items-center gap-1 normal-case hover:bg-transparent"
+              className="flex justify-center items-center gap-1 normal-case hover:bg-transparent font-semibold"
             >
               <img className="h-5 w-5" src={userIcon} alt="" />
               Account

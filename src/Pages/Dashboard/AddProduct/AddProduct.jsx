@@ -49,7 +49,7 @@ const AddProduct = () => {
   };
 
   return (
-    <div className="w-3/4">
+    <div className="w-3/4 mx-auto">
       <Helmet>
         <title>The Language Space | Add Product</title>
       </Helmet>

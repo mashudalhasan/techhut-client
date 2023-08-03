@@ -9,7 +9,7 @@
 
 .react-tabs__tab-list {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap; /* Wrap the tabs to the next line if they exceed the container width */
   margin-top: 40px;
   align-items: center;
   gap: 10px;
@@ -25,11 +25,13 @@
   transition: background-color 0.5s;
   border-radius: 25px;
   margin: 0 2px;
+  flex-shrink: 0; /* Prevent the tabs from shrinking to fit the container */
+  max-width: 150px; /* Limit the maximum width of each tab */
 }
 
 .react-tabs__tab:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .react-tabs__tab:last-child {

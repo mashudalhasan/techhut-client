@@ -11,7 +11,7 @@ const Laptop = () => {
   };
 
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | Laptops</title>
       </Helmet>

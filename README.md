@@ -6,6 +6,11 @@ A full stack React website built with admin dashboard functionality.
 
 Hosted in Firebase -> [Tech Hut](https://techhut-8c28a.web.app)
 
+## Admin Dashboard Keys
+
+Email: alhasan@gmail.com
+Password: @1Hasan1@
+
 ## Backend Code Link
 
 [techhut-server](https://github.com/mashudalhasan/techhut-server)

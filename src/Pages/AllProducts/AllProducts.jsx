@@ -22,7 +22,7 @@ const AllProducts = () => {
   };
 
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | Products</title>
       </Helmet>
@@ -68,7 +68,7 @@ const AllProducts = () => {
       <motion.div
         className="w-11/12 mx-auto mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
         initial={{ opacity: 0, translateY: "10%" }}
-        whileInView={{ opacity: 1, translateY: "0%" }}
+        animate={{ opacity: 1, translateY: "0%" }}
         transition={{ duration: 1.5 }}
       >
         {searchInput

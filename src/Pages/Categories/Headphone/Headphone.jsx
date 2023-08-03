@@ -11,7 +11,7 @@ const Headphone = () => {
   };
 
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | Headphones</title>
       </Helmet>

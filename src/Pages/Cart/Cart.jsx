@@ -64,8 +64,8 @@ const Cart = () => {
   };
 
   return (
-    <div>
-      <div className="mx-auto w-3/4   sm:px-6 sm:py-12 lg:px-8">
+    <div className="pt-20">
+      <div className="mx-auto w-3/4 sm:px-6 sm:py-12 lg:px-8">
         <div>
           <header className="text-center">
             <h1 className="text-xl font-semibold tracking-tighter text-gray-900 sm:text-3xl">

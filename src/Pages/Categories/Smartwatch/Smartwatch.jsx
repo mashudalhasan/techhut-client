@@ -11,7 +11,7 @@ const Smartwatch = () => {
   };
 
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | Smartwatches</title>
       </Helmet>

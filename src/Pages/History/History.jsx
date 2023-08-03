@@ -5,7 +5,7 @@ import CommonBanner from "../../components/CommonBanner/CommonBanner";
 
 const History = () => {
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | History</title>
       </Helmet>

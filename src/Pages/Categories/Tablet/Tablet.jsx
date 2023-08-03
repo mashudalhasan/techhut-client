@@ -11,7 +11,7 @@ const Tablet = () => {
   };
 
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>The Language Space | Tablets</title>
       </Helmet>

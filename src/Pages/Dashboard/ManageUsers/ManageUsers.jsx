@@ -116,19 +116,19 @@ const ManageUsers = () => {
                 <td>{user.name}</td>
                 <td>{user.email}</td>
                 <td>{user.role}</td>
-                <td>
+                <td className="p-0">
                   <div className="grid grid-cols-1 gap-2">
                     <button
                       onClick={() => handleMakeAdmin(user)}
                       disabled={user.role === "admin" ? true : false}
-                      className="btn btn-ghost btn-xs normal-case"
+                      className="btn btn-ghost btn-xs normal-case py-1 h-full"
                     >
                       Make Admin
                     </button>
                     <button
                       onClick={() => handleMakeCustomer(user)}
                       disabled={user.role === "customer" ? true : false}
-                      className="btn btn-ghost btn-xs normal-case"
+                      className="btn btn-ghost btn-xs normal-case py-1 h-full"
                     >
                       Make Customer
                     </button>

@@ -5,7 +5,7 @@ import CommonBanner from "../../components/CommonBanner/CommonBanner";
 
 const About = () => {
   return (
-    <div>
+    <div className="pt-16">
       <Helmet>
         <title>Tech Hut | About</title>
       </Helmet>
